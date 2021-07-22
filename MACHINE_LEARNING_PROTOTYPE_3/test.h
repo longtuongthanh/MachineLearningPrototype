@@ -10,10 +10,12 @@ struct test
 {
     long a,b,output;
 
-    test()
+    test(int difficulty = 10)
     {
         a=rand()%(1<<(bit_size));
+        a=a%difficulty;
         b=rand()%(1<<(bit_size));
+        b=b%difficulty;
         output=super_secret_formula(a,b);
     }
 
@@ -42,10 +44,10 @@ struct test_set
         return ans;
     }
 
-    void renew()
+    void renew(int difficulty)
     {
         for (int i=0;i<test_num;i++)
-            question[i]=test();
+            question[i]=test(difficulty);
     }
 };
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1539852656 source:c:\project\machine_learning_prototype_3\main.cpp
+1626952839 source:c:\project\machine_learning_prototype_3\main.cpp
 	<iostream>
 	<ctime>
 	<cstdlib>
@@ -23,18 +23,19 @@
 	"constlib.h"
 	"bot_catcher.h"
 
-1539852252 c:\project\machine_learning_prototype_3\bot_data.h
+1626953041 c:\project\machine_learning_prototype_3\bot_data.h
 	<utility>
 	<cstdlib>
 	<vector>
+	<stdio.h>
 	"bit_computation.h"
 	"constlib.h"
 	"bot_catcher.h"
 
-1539855001 c:\project\machine_learning_prototype_3\constlib.h
+1626952184 c:\project\machine_learning_prototype_3\constlib.h
 	<cmath>
 
-1539697682 c:\project\machine_learning_prototype_3\test.h
+1626948717 c:\project\machine_learning_prototype_3\test.h
 	"constlib.h"
 	"bit_computation.h"
 	<utility>
@@ -50,7 +51,7 @@
 	<utility>
 	"bot_data.h"
 
-1539853071 c:\project\machine_learning_prototype_3\bot_ecology.h
+1626952839 c:\project\machine_learning_prototype_3\bot_ecology.h
 	<algorithm>
 	"constlib.h"
 	"bit_computation.h"

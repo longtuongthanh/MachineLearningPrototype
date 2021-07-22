@@ -126,6 +126,11 @@ struct bot_ecology
         }
         return ans;
     }
+
+    void printBestBot()
+    {
+        bot[0].printData();
+    }
 };
 
 #endif // __BOT_ECOLOGY_H_INCLUDED

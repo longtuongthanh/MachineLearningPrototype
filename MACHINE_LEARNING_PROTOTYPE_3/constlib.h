@@ -8,8 +8,8 @@ extern const long pos_func=5;
 extern const long pos_chnge=8;
 
 extern const long bit_size=10;
-extern const long test_num=1000;
-extern const double max_mult=1.06;
+extern const long test_num=300;
+extern const double max_mult=1.0006;
 
 extern const long max_pair=20;
 extern const long max_chromosome=20;
@@ -22,10 +22,11 @@ extern const long bot_catcher_raw_score=1000;
 extern const long bot_catcher_score=1000;
 
 extern const long new_old_threshhold=10;
+extern const long stagnate_to_print=300;
 
 long super_secret_formula(long a,long b)
 {
-    return a xor b;
+    return a + b;
 }
 
 /*

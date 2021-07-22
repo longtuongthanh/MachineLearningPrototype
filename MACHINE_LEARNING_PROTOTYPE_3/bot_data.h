@@ -4,12 +4,15 @@
 #include <utility>
 #include <cstdlib>
 #include <vector>
+#include <stdio.h>
 #include "bit_computation.h"
 #include "constlib.h"
 #include "bot_catcher.h"
 
 typedef std::pair <long,long> instruction;
 typedef std::vector <instruction> instruction_set;
+using std::cout;
+using std::endl;
 
 long refer[max_chromosome+2];
 
@@ -73,6 +76,12 @@ struct chromosome
             if (command[i]!=x.command[i])
                 return false;
         return true;
+    }
+
+    void printData()
+    {
+        for (int i=0; i<size; i++)
+            cout<<'\t'<<command[i].first<<' '<<command[i].second<<endl;
     }
 };
 
@@ -156,6 +165,15 @@ struct bot_data
             if (chr[i]==x.chr[i])
                 return false;
         return true;
+    }
+    void printData()
+    {
+        for (int i = 0; i<size; i++)
+        {
+            cout<<"Reg "<<i<<":\n";
+
+            chr[i].printData();
+        }
     }
 };
 
