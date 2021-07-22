@@ -1,0 +1,18 @@
+Efficiency: 
+	low
+Accuracy: 
+	~50 calculation: 90%-95% 	(A+B)
+	~1000 calculation: 65%-60%	(A*B)
+	overall, low accuracy overall.
+	speculate try-all brute-force would be faster.
+Code complexity:
+	medium-low
+Knowledge requirement:
+	none
+
+
+---------------------FAIL---------------------
+
+Potential
+	multi-ecosystem and road-marks to guide the program
+	combination with closing-in approach for parameters

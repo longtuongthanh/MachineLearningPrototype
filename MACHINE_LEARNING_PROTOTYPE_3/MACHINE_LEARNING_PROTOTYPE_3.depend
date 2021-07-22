@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1539852656 source:c:\project\machine_learning_prototype_3\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<exception>
+	"bot_ecology.h"
+	<cstdio>
+
+1539598332 source:c:\project\machine_learning_prototype_3\library.cpp
+
+1539770615 c:\project\machine_learning_prototype_3\bit_computation.h
+	"constlib.h"
+
+1539770615 source:c:\project\machine_learning_prototype_3\bit_computation.h
+	"constlib.h"
+
+1539822804 source:c:\project\machine_learning_prototype_3\bot_data.h
+	<utility>
+	<cstdlib>
+	<vector>
+	"bit_computation.h"
+	"constlib.h"
+	"bot_catcher.h"
+
+1539852252 c:\project\machine_learning_prototype_3\bot_data.h
+	<utility>
+	<cstdlib>
+	<vector>
+	"bit_computation.h"
+	"constlib.h"
+	"bot_catcher.h"
+
+1539855001 c:\project\machine_learning_prototype_3\constlib.h
+	<cmath>
+
+1539697682 c:\project\machine_learning_prototype_3\test.h
+	"constlib.h"
+	"bit_computation.h"
+	<utility>
+	"bot_data.h"
+
+1539732356 source:c:\project\machine_learning_prototype_3\bot_manip.h
+	"bot_data.h"
+	<cmath>
+
+1539697682 source:c:\project\machine_learning_prototype_3\test.h
+	"constlib.h"
+	"bit_computation.h"
+	<utility>
+	"bot_data.h"
+
+1539853071 c:\project\machine_learning_prototype_3\bot_ecology.h
+	<algorithm>
+	"constlib.h"
+	"bit_computation.h"
+	"bot_data.h"
+	"test.h"
+	"bot_manip.h"
+
+1539850107 c:\project\machine_learning_prototype_3\bot_manip.h
+	"bot_data.h"
+	<cmath>
+
+1539831726 source:c:\project\machine_learning_prototype_3\bot_ecology.h
+	<algorithm>
+	"constlib.h"
+	"bit_computation.h"
+	"bot_data.h"
+	"test.h"
+	"bot_manip.h"
+
+1539700705 c:\project\machine_learning_prototype_3\bot_catcher.h
+
+1539700705 source:c:\project\machine_learning_prototype_3\bot_catcher.h
+
+1539771236 source:c:\project\machine_learning_prototype_3\constlib.h
+	<cmath>
+

@@ -1,0 +1,13 @@
+Scoring criteria:
+	Complexity - the amount of time & memory the bot takes. multiplier
+	Accuracy - the amount of tests the program gets correct. raw score
+Building better:
+	Redundancy reduction - if there are no use for it, remove it.
+	Genome creation idea:
+		promoter, operator, gene: layer 1
+		chromosome - possibly in pairs: layer 2
+		offspring genome - reproduction crossing: layer 3
+	Possible mutation:
+		delete, add, change 1 pair
+		delete, duplicate 1 segment
+		delete (,duplicate) 1 chromosome

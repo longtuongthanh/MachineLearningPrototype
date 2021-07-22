@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1545809030 source:c:\project\machine_learning_library\main.cpp
+	<iostream>
+	"AI.h"
+
+1545812005 c:\project\machine_learning_library\ai.h
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+#ifndef __BOT_CATCHER_H_INCLUDED
+#define __BOT_CATCHER_H_INCLUDED
+
+
+
+#endif // __BOT_CATCHER_H_INCLUDED

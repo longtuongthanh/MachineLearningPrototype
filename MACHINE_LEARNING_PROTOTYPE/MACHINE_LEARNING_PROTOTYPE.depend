@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1538060094 source:c:\project\machine_learning_prototype\main.cpp
+	<iostream>
+	<time.h>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+
