@@ -56,21 +56,21 @@ int main()
         //if (temp>max_score) {max_score=temp;if (max_score>500+pos_mutate*100) pos_mutate++;}
         int prevscore = score;
         score = bots.raw_performance();
-        if (bots.raw_performance() >= test_num * 9.8 && difficulty < 1e9)
+        if (bots.raw_performance() >= test_num * score_to_continue)
         {
-
+            if (difficulty < 1e9 && stagnate > stagnate_to_advance){
                 difficulty*=2;
-                bots.elim.renew();
-                bots.tester.renew(difficulty);
+                stagnate = 0;
+            }
+            else
+                stagnate++;
+            bots.elim.renew();
+            bots.tester.renew(difficulty);
 
-        }
-        if (difficulty > 1e9 && prevscore == score)
-        {
-            stagnate++;
         }
         else stagnate = 0;
         last_ans=temp;
-        cout<<iter_no<<" ("<<difficulty<<") : "<<score << "  " <<last_ans<<'\n';
+        cout<<iter_no<<" ("<<difficulty<<") : "<<score << "  " <<last_ans<<" REP: "<<stagnate<<'\n';
         bots.next_gen();
         iter_no++;
     }

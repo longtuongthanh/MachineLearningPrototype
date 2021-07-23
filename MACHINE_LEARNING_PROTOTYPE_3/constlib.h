@@ -3,13 +3,13 @@
 
 #include <cmath>
 
-extern const long bot_no=300;
+extern const long bot_no=500;
 extern const long pos_func=5;
 extern const long pos_chnge=8;
 
 extern const long bit_size=10;
-extern const long test_num=300;
-extern const double max_mult=1.0006;
+extern const long test_num=500;
+extern const double max_mult=1.0000006;
 
 extern const long max_pair=20;
 extern const long max_chromosome=20;
@@ -23,6 +23,9 @@ extern const long bot_catcher_score=1000;
 
 extern const long new_old_threshhold=10;
 extern const long stagnate_to_print=300;
+extern const long stagnate_to_advance=30;
+
+extern const double score_to_continue=9.8;
 
 long super_secret_formula(long a,long b)
 {

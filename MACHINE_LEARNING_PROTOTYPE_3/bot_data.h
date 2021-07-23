@@ -80,6 +80,7 @@ struct chromosome
 
     void printData()
     {
+        cout<<'\t'<<begin<<endl;
         for (int i=0; i<size; i++)
             cout<<'\t'<<command[i].first<<' '<<command[i].second<<endl;
     }
